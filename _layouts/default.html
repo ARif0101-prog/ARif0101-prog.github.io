@@ -7,10 +7,17 @@
 </head>
 
 <body>
-  <header>
-    <h1>{{ site.title }}</h1>
-    <p>Halaman: {{ page.title }}</p>
-  </header>
+<header>
+  <h1>{{ site.title }}</h1>
+
+  <nav>
+    <a href="{{ '/' | relative_url }}">Beranda</a>
+    |
+    <a href="{{ '/about' | relative_url }}">Profil</a>
+  </nav>
+
+  <p>Halaman: {{ page.title }}</p>
+</header>
   <main>
     {{ content }}
   </main>
