@@ -3,8 +3,18 @@ layout: default
 title: Beranda
 ---
 
-# Selamat Datang
+# Halo, saya Arif
 
-Ini adalah website pertama saya menggunakan **Jekyll**.
+Selamat datang di website saya.
 
-Kita akan membangun website ini sedikit demi sedikit sambil mempelajari Jekyll.
+## Tentang website ini
+
+Website ini dibuat menggunakan **Jekyll** dan di-host menggunakan **GitHub Pages**.
+
+### Yang sedang saya pelajari
+
+- Jekyll
+- HTML
+- CSS
+- Liquid
+- GitHub Pages
